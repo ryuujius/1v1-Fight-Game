@@ -10,7 +10,7 @@ namespace Fight1v1
     {
         static void Main(string[] args)
         {
-            Warrior thor = new StrenghtWarrior("Thor", 120, 26, 10);
+            Warrior thor = new StrenghtWarrior("Thor", 100, 26, 10);
             Warrior loki = new MagicWarrior("Loki", 75, 20, 10, 60);
 
             Battle.StartFight(thor, loki);
